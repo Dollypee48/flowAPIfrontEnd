@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:4000";
+const API_BASE_URL = "https://flow-api-backend.vercel.app/";
 
 export default function Register() {
   const navigate = useNavigate();
